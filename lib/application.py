@@ -56,14 +56,13 @@ class Application:
 
         chrome_options = Options()
         chrome_options.add_argument('--ignore-certificate-errors')
-	chrome_options.headless = True
-        # chrome_options.add_argument("--test-type")
+        chrome_options.headless = True
         # chrome_options.binary_location = "snap/bin/chromium"
         # chrome_options.binary_location = "resources/chromedriver"
         chrome_options.add_argument('--disable-dev-shm-usage')
         chrome_options.add_argument("--window-size=960x720x24")
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
-        # self.driver.fullscreen_window()
+        self.driver.fullscreen_window()
 
     def get_driver(self):
         return self.driver
@@ -89,3 +88,4 @@ class Application:
 
 
 app = Application.get_instance()
+
