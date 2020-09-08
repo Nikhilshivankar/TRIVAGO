@@ -56,6 +56,7 @@ class Application:
 
         chrome_options = Options()
         chrome_options.add_argument('--ignore-certificate-errors')
+	chrome_options.headless = True
         # chrome_options.add_argument("--test-type")
         # chrome_options.binary_location = "snap/bin/chromium"
         # chrome_options.binary_location = "resources/chromedriver"
