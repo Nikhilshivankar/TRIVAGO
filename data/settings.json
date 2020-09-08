@@ -8,7 +8,7 @@
     "behave_command_for_esp_trivago": ["behave", "-n", "Validate_the_search_criteria_on_Trivago_and_TUI_page_Trivago_ES", "/project/features/Trivago_Search_ES.feature"],
     "behave_command_for_pt_trivago": ["behave", "-n", "Validate_the_search_criteria_on_Trivago_and_TUI_page_Trivago_PT", "/project/features/Trivago_Search_PT.feature"],
     "test_data_sheet_name_esp_trivago": "Trivago_ESP",
-    "application_url":"https://www.trivago.es/",
+    "application_url":"http://demo.guru99.com/test/newtours/",
 
     "test_rail_url": "https://testrail.tui.de/testrail/",
     "test_rail_username": "nikhil.shivankar@sptr.co",
