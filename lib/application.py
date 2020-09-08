@@ -82,6 +82,7 @@ class Application:
     def open_url(self, str_url):
         self.driver.get(str_url)
         self.driver.implicitly_wait(5)
+        print(len(self.driver.page_source))
 
     def close_entire_browser(self):
         self.driver.quit()

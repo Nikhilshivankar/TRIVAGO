@@ -31,7 +31,8 @@ class TrivagoMetas(Page):
     def check_if_trivago_home_page_is_launched(self):
         """Method to check if the home page for Trivago is launched"""
         title = self.driver.title
-        if str(title).startswith("trivago"):
+        print(" title >>>>", title)
+        if str(title).__contains__("Mercury"):
             return True
 
     def set_search_criteria(self, hotel_name, check_in_date, check_out_date, passenger_count, age):
