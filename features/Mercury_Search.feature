@@ -7,3 +7,4 @@ Feature: Trivago_Search
 
   Scenario: Search_offer_on_Mercury_Tour
     Given The home page for Trivago is launched
+    
