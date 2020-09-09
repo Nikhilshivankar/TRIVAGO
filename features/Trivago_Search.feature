@@ -8,3 +8,6 @@ Feature: Trivago_Search
   Scenario: Search_offer_on_Mercury_Tours
     Given The home page for Trivago is launched
 
+  Scenario: Search_offer_on_Mercury_Tours000
+    Given The home page for Trivago is launched
+
