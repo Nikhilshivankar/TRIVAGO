@@ -4,3 +4,6 @@ Feature: Trivago_Search
     Given The home page for Trivago is launched
 #    When  User enters the search criteria
 #    Then  Checks if the Hotel is displayed on Search Result Page
+
+  Scenario: Search_offer_on_Mercury_Tour
+    Given The home page for Trivago is launched
